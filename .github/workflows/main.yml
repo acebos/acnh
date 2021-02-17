@@ -1,0 +1,21 @@
+name: Daily Tasklist Issue
+on:
+  schedule:
+  - cron: 0 5 * * *  # 5am everyday – https://crontab.guru 
+
+jobs:
+  daily_standup:
+    name: Daily Tasklist Issue
+    runs-on: ubuntu-latest
+    steps:
+
+    - name: issue-bot
+      uses: imjohnbo/issue-bot@v3
+      with:
+        assignees: "fluted"
+        labels: "daily checklist"
+        pinned: true
+        close-previous: true
+        template: daily-checklist.md # e.g. title, body in template but assignees, labels are not
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
