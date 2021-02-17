@@ -17,9 +17,9 @@ jobs:
       uses: imjohnbo/issue-bot@v2
       with:
         assignees: "fluteds" # GitHub handles without the @
-        labels: "daily tasklist"
+        labels: "daily checklist"
         pinned: true
         close-previous: true
-        template: "daily-tasklist.md" # assignees, labels will be overridden if present in YAML header
+        template: "daily-checklist.md" # assignees, labels will be overridden if present in YAML header
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
