@@ -1,7 +1,7 @@
 name: Daily Tasklist Issue
 on:
   schedule:
-  - cron: 32 22 * * *  # Updates at 5am everyday (when a new day starts in ACNH) – https://crontab.guru 
+  - cron: 04 23 * * *  # Updates at 5am everyday (when a new day starts in ACNH) – https://crontab.guru 
 
 jobs:
   daily_standup:
