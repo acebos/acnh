@@ -12,7 +12,7 @@
 <p align="center"> 
   Let’s be friends! I’m Autumn from 🏝Wilderness Island.
 <br>
-<a href="https://twitter.com/intent/tweet?   text=%40fluted_%20hey%2C%20I%20wanna%20be%20ACNH%20friends!">
+<a href="https://twitter.com/intent/tweet?text=%40fluted_%20hey%2C%20I%20wanna%20be%20ACNH%20friends!">
   @ me on twitter</a> to share Switch FCs or Dodo codes 
   <img src="https://user-images.githubusercontent.com/221550/79899331-a7d3b480-83da-11ea-9bb1-d74d4032bf82.png" height="30" width="30" valign="bottom"> 
 <br> 
