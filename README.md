@@ -25,6 +25,8 @@
 </p>
 
 ## Dailies <sub><sup><sub>[`source 1`](https://www.polygon.com/animal-crossing-new-horizons-switch-acnh-guide/2020/3/20/21162973/day-dailies-fossils-money-rock-bells-furniture) [`source 2`](https://c.eev.ee/acnh-companion/#tips)</sub></sup></sub>
+> Don't want to manually tick and untick or create a new checklist? Fear not. I've made an [**automatic issue creator**](https://github.com/fluteds/acnh/wiki/%E2%9C%94%EF%B8%8F-Daily-Checklist-Guide) that notifies you when a new ACNH day starts and refreshes the tasklist!
+
 Every day starting at 🕔 **`5:00 am`**, you can accomplish these tasks all over again:
 
 * [ ] Check in at the Nook Stop (300 Nook Miles per day after your first 6 days)
@@ -59,9 +61,9 @@ Time is determined by your Nintendo Switch’s local time. Though midnight local
 | 🕙 **`10:00 pm`** | Nook’s Cranny closes |
 
 #### Every day/night switch
-* Certain critters appear/disappear
-* Certain villages are more/less active
-* Balloon presents switch sides by spawning from the opposite beach
+* Certain critters appear/disappear.
+* Certain villages are more/less active.
+* Balloon presents switch sides by spawning from the opposite beach.
 
 ---
 
