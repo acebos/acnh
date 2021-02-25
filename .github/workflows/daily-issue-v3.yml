@@ -1,4 +1,4 @@
-name: Daily Standup
+name: Daily Checklist v3
 on:
   workflow_dispatch:
   schedule:
@@ -20,11 +20,11 @@ jobs:
       with:
         assignees: "fluteds"
         labels: "daily checklist"
-        title: Daily Checklist 🕔
+        title: Daily ACNH Checklist 🕔
         body: |-
-          :wave: Hi, {{#each assignees}}@{{this}}{{#unless @last}}, {{/unless}}{{/each}}!
-          ## ACNH Checklist for ${{ env.TODAY }}
-          Resets at 🕔 **`5:00 am`**
+          ## 🌲 ACNH Checklist for ${{ env.TODAY }}
+          :wave: Hi, {{#each assignees}}@{{this}}{{#unless @last}}, {{/unless}}{{/each}}! Here's your daily checklist.
+          Resets at 🕔 **`5:00 am`** local time.
           * [ ] Check in at the Nook Stop (300 Nook Miles per day after your first 6 days)
           * [ ] Shop the Nook Stop for new special catalog items and fence recipes
           * [ ] Shop at Nook’s Cranny and the Able Sisters’
