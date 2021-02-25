@@ -1,8 +1,9 @@
 name: Daily Standup
 on:
+  workflow_dispatch:
   schedule:
   # Updates at 5am everyday (when a new day starts in ACNH) – https://crontab.guru 
-  - cron: 10 12 * * *
+  - cron: 0 5 * * *
 
 jobs:
   daily_standup:
@@ -17,7 +18,7 @@ jobs:
     - name: Daily Checklist 🕔
       uses: imjohnbo/issue-bot@v3
       with:
-        assignees: "octocat, monalisa"
+        assignees: "fluteds"
         labels: "daily checklist"
         title: Daily Checklist 🕔
         body: |-
