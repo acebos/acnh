@@ -1,0 +1,25 @@
+name: Daily Checklist v2
+on:
+  schedule:
+  - cron: "0 5 * * *"  # Updates at 5am everyday (when a new day starts in ACNH) – https://crontab.guru 
+
+jobs:
+  daily_standup:
+    name: Daily Tasklist Issue
+    runs-on: ubuntu-latest
+    steps:
+
+    # Repo code checkout required if `template` is used
+    - name: Checkout
+      uses: actions/checkout@v2
+
+    - name: issue-bot
+      uses: imjohnbo/issue-bot@v2
+      with:
+        assignees: "" # GitHub handles without the @
+        labels: "daily checklist"
+        pinned: true
+        close-previous: true
+        template: ".github/ISSUE_TEMPLATE/daily-checklist.md" # assignees, labels will be overridden if present in YAML header
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
